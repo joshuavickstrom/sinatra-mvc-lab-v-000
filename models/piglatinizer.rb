@@ -3,8 +3,8 @@ class PigLatinizer
 
   def split_sentence(word)
     words = word.split(" ")
-  end 
-  
+  end
+
   def piglatin(words)
     if words =~ (/\A[aeiou]/i)
       words = word + 'ay'
