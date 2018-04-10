@@ -1,7 +1,7 @@
 class PigLatinizer
   attr_reader :word
 
-  def piglatin(word)
+  def piglatinize(word)
     if word =~ (/\A[aeiou]/i)
       word = word + 'ay'
     elsif word =~ (/\A[^aeiou]/i)
