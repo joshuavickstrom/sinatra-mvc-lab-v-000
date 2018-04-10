@@ -7,6 +7,6 @@ class App < Sinatra::Base
 
   post '/piglatinize' do
     @inputs = params
-    erb :user_input
+    erb :piglatinize 
   end
 end
