@@ -1,6 +1,6 @@
 class PigLatinizer
   attr_reader :sent
-  
+
   def translate(sent)
     sent = sent.downcase
     vowels = ['a', 'e', 'i', 'o', 'u']
