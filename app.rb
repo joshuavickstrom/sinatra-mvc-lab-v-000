@@ -6,7 +6,7 @@ class App < Sinatra::Base
   end
 
   post '/piglatin' do
-
+    @inputs = params
     erb :user_input
   end
 end
